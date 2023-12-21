@@ -10,7 +10,7 @@ const Navbar = () => {
         <div className="brand-logo-img">
           <BiSolidChurch />
         </div>
-        <div className="brand-logo-text">Church Tech Today</div>
+        <div className="brand-logo-text"><div>Church Tech</div><div>Today</div></div>
       </div>
 
       <div className="heading">AI Pulse Check</div>
