@@ -63,14 +63,67 @@
 
 .home-card{
   width: 70%;
-  height: 80%;
+  height: 65%;
   margin-top: -60px;
   border-radius: 8px;
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  background-color: white;
 }
 
 .video-card{
   width: 50%;
   border-right: 1px solid black;
+}
+
+.text-card{
+  padding: 32px 22px;
+  width: 50%;
+}
+
+.text-card h1{
+  padding-bottom: 2rem;
+  font-size: xx-large;
+}
+
+.text-card h1 span{
+  color: rebeccapurple;
+}
+
+.text-card ol{
+  padding-left: 24px;
+  font-size: x-large;
+  color: darkslategrey;
+}
+
+.text-card li{
+  margin-bottom: 10px;
+}
+
+.button-container{
+  padding: 22px 0px;
+  display: flex;
+}
+
+.btn{
+  padding: 14px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.time{
+  background-color: white;
+  color: black;
+  padding-left: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.text-card-btm-text{
+  margin-top: 20px;
 }
